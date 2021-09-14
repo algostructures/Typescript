@@ -1,4 +1,5 @@
-///<reference path="person.ts"/>
+/// <reference path="person.ts" />
+
 class Player implements Person {
   name: string;
   age: number;
@@ -6,5 +7,5 @@ class Player implements Person {
 
   formatName() {
     return this.name.toUpperCase();
-  }
-}
+  }  
+};
